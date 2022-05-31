@@ -5,7 +5,7 @@ npm init
 # Step 2
 
 Install modules
-npm i express mongoose dotenv nodemon cors bcrypt
+npm i express mongoose dotenv nodemon cors bcrypt jsonwebtoken joi joi-password-complexity
 
 Add the following line in package.json (in order to use nodemon)
 "start": "nodemon index.js"
